@@ -1,0 +1,29 @@
+---
+title: "Bora Kang"
+subtitle: "Ph.D. in English"
+image: images/BAB58528-B764-40DC-8037-FC4E760A8CB8.jpg
+
+about:
+  template: trestles
+  image-width: 10em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:bkang21@binghamton.edu"
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=_4tWMuwAAAAJ&hl=en"
+---
+
+## About
+
+I am a scholar of Anglophone literature specializing in modern and contemporary British literature, film and media, visual studies, and cultural studies. I received my Ph.D. in English from Binghamton University. My research examines how literary and cultural forms shape ideas of Englishness, national belonging, and collective memory through affective experience.
+
+## Research & Teaching Interests
+
+- Modern and Contemporary Anglophone Literature
+- British Literature and Cultural Identity
+- Emotion and Affect Theory
+- Narrative and Seriality in Screen Media
+- Visuality and Perception
+- Heritage Media and Cultural Memory

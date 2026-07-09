@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Bora Kang"
+  description: "Academic website of Bora Kang"
+  navbar:
+    background: light
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Conferences      # 👈 추가된 줄 (메뉴 이름)
+        href: conferences.qmd    # 👈 추가된 줄 (연결할 파일명)
+      - text: CV
+        href: cv.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
