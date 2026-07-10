@@ -163,7 +163,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="about" class="level2">
 <h2 data-anchor-id="about">About</h2>
-<p>I am a scholar of Anglophone literature specializing in modern and contemporary British literature, film and media, visual studies, and cultural studies. I received my Ph.D.&nbsp;in English from Binghamton University. My research examines how literary and cultural forms shape ideas of Englishness, national belonging, and collective memory through affective experience.</p>
+<p>I am a scholar of Anglophone literature specializing in modern and contemporary British literature, film and media, visual studies, and cultural studies. I received my Ph.D.&nbsp;in English from Binghamton University. My research examines how literary and cultural forms shape affective experience across national belonging, collective memory, and cultural identity.</p>
+<p>My work traces how affective configurations, expressed across the twentieth-century British novel and in heritage media, have shaped Englishness and national identity over time. My current project develops this research into a monograph, <em>Affective Drift and Englishness from Woolf to Brexit: Literature, Film, and Media</em>.</p>
+<p>This inquiry has since expanded toward affective experience among non-Western and marginalized subjects, tracing how emotion circulates unevenly within diasporic and postcolonial narratives. A parallel strand of my work turns to heritage genres and audience studies, extending beyond literary and media texts to ask how cultural forms across streaming platforms, museums, and tourism generate feeling and sustain particular social imaginaries.</p>
 </section>
 <section id="research-teaching-interests" class="level2">
 <h2 data-anchor-id="research-teaching-interests">Research &amp; Teaching Interests</h2>
@@ -247,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/br-kang\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
