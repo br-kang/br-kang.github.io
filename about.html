@@ -132,11 +132,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bora-kang" id="toc-bora-kang" class="nav-link active" data-scroll-target="#bora-kang">Bora Kang</a>
-  <ul class="collapse">
-  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
   <li><a href="#research-teaching-interests" id="toc-research-teaching-interests" class="nav-link" data-scroll-target="#research-teaching-interests">Research &amp; Teaching Interests</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -146,14 +143,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="bora-kang" class="level1">
-<h1>Bora Kang</h1>
-<p class="fs-4 text-muted mb-3">
-Ph.D.&nbsp;in English
-</p>
-<!-- 이메일, 구글 스칼라, ORCID 가로 버튼 링크 -->
-<div style="margin-bottom: 2.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-<p><a href="mailto:bkang21@binghamton.edu" class="btn btn-outline-dark btn-sm"> <i class="fa-solid fa-envelope"></i> Email </a> <a href="https://scholar.google.com/citations?user=_4tWMuwAAAAJ&amp;hl=en" class="btn btn-outline-dark btn-sm" target="_blank"> <i class="fa-solid fa-graduation-cap"></i> Google Scholar </a> <a href="https://orcid.org/0009-0007-5408-6013" class="btn btn-outline-dark btn-sm" target="_blank"> <i class="fa-brands fa-orcid"></i> ORCID </a></p>
+<div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
+<p><!-- 프로필 사진 --> <img src="images/BAB58528-B764-40DC-8037-FC4E760A8CB8.jpg" alt="Bora Kang" style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%;"></p>
+<!-- 이름, 학위 및 각 고유 기호 링크 -->
+<div>
+<pre><code>&lt;h1 style="margin-bottom: 0.2rem; font-size: 2rem;"&gt;Bora Kang&lt;/h1&gt;
+&lt;p class="text-muted mb-2" style="font-size: 1.1rem; font-weight: 500;"&gt;Ph.D. in English&lt;/p&gt;
+
+&lt;div style="display: flex; gap: 1.2rem; align-items: center; margin-top: 0.5rem; font-size: 0.95rem;"&gt;
+  &lt;a href="mailto:bkang21@binghamton.edu" style="text-decoration: none; color: inherit;"&gt;
+    &lt;i class="fa-solid fa-envelope" style="margin-right: 4px;"&gt;&lt;/i&gt; Email
+  &lt;/a&gt;
+  &lt;a href="https://scholar.google.com/citations?user=_4tWMuwAAAAJ&amp;hl=en" target="_blank" style="text-decoration: none; color: inherit;"&gt;
+    &lt;i class="fa-solid fa-graduation-cap" style="margin-right: 4px;"&gt;&lt;/i&gt; Google Scholar
+  &lt;/a&gt;
+  &lt;a href="https://orcid.org/0009-0007-5408-6013" target="_blank" style="text-decoration: none; color: inherit;"&gt;
+    &lt;i class="fa-brands fa-orcid" style="margin-right: 4px;"&gt;&lt;/i&gt; ORCID
+  &lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</div>
 </div>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
@@ -172,7 +180,6 @@ Ph.D.&nbsp;in English
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
