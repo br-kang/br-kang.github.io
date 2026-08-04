@@ -1,1 +1,16 @@
-/* css styles */
+/* css/* 사진 크기는 10em으로 유지하고 오른쪽 텍스트 영역만 넓게 확장 */
+.quarto-about.trestles {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+
+.quarto-about-trestles .about-contents {
+  flex-grow: 3 !important;
+  flex-basis: 75% !important;
+  max-width: 100% !important;
+}
+
+.quarto-about-trestles .about-entity {
+  flex-grow: 1 !important;
+  flex-basis: 25% !important;
+} styles */
